@@ -1,0 +1,25 @@
+{
+  "name": "self-healing-agent",
+  "version": "1.0.0",
+  "description": "Autonomous Troubleshooting & Self-Healing Agent",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "node-fetch": "^2.7.0",
+    "sqlite3": "^5.1.7",
+    "systeminformation": "^5.31.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
